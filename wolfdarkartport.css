@@ -7,10 +7,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(192, 190, 190);
-    border: 0.2rem;
-    border-style: groove;
-    border-color: black;
+    /* background-image: linear-gradient(180deg, #413f3f, rgb(156, 153, 153)); */
+    background-image: url("https://raw.githubusercontent.com/WolfDev616/artist-portfolio/refs/heads/main/GreatTreeHDnoborder.jpg");
+    background-size: cover;
 }
 
 a {
@@ -28,19 +27,33 @@ p, address {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 8rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
 }
 
 h2 {
     font-size: 4rem;
 }
-
+    
 h3 {
     font-size: 2rem;}
 
 * {
     font-family: "Metamorphous", serif;
 }
+
+/* Main */
+
+main, footer {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+}
+
+
 
 /* Hero  */
 
@@ -51,19 +64,29 @@ h3 {
     align-items: center;
 }
 
+.hero-display .subtitulo-h1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px, 2rem;
+
+}
 
 .img-loboguara {
     width: 40rem;
+}
+
+.container-img-loboguara {
+    background-color: white;
+    border-radius: 50%;
+    border: 5px;
+    border-style: double;
 }
 
 
 
 /* Imagens */ 
 
-main div img {
-    width: 300px;
-    display: grid;
+.links-artes {
+    display: flex;
     gap: 3.12rem;
 }
-
-
