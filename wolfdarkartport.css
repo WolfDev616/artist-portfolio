@@ -2,13 +2,68 @@ html {
     font-size: 10px;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(192, 190, 190);
+    border: 0.2rem;
+    border-style: groove;
+    border-color: black;
+}
+
+a {
+    color: grey;
+}
+
 .metamorphous-regular {
   font-family: "Metamorphous", serif;
   font-weight: 400;
   font-style: normal;
 }
-
+p, address {
+    font-size: 1.62rem;
+    font-style: normal;
+}
 
 h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;}
+
+* {
     font-family: "Metamorphous", serif;
 }
+
+/* Hero  */
+
+.hero-display {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-loboguara {
+    width: 40rem;
+}
+
+
+
+/* Imagens */ 
+
+main div img {
+    width: 300px;
+    display: grid;
+    gap: 3.12rem;
+}
+
+
